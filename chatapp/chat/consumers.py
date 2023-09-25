@@ -5,6 +5,7 @@ from .consumer_helpers import save_user_channel_name, set_user_offline, get_user
 
 
 
+
 """ This is a completely deecoupled backend for the real-time messaging. The backend only handles the routing and message logging 
     through django channels. For testing the real-time messaging, the frontend need to have a websocket connection with the 
     backend. This can be done seperately with postman websocket request type.
